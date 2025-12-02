@@ -1,0 +1,22 @@
+{
+  "ucsd_results": {
+    "histogram": 0.4309459314488011,
+    "optical_flow": 0.5,
+    "cnn": 0.5
+  },
+  "avenue_results": {
+    "histogram": 0.5011775887106392,
+    "optical_flow": 0.5097287685295311,
+    "cnn": 0.5069184510846582
+  },
+  "performance_comparison": {
+    "ucsd_best": 0.5,
+    "avenue_best": 0.5097287685295311,
+    "generalization_drop": -0.009728768529531084,
+    "generalization_status": "excellent"
+  },
+  "baseline_comparison": {
+    "ucsd_baseline": 0.4816,
+    "avenue_baseline": 0.4523
+  }
+}

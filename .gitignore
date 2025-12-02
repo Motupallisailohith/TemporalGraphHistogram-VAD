@@ -1,0 +1,55 @@
+# Dataset files (too large for GitHub)
+data/raw/
+data/processed/
+
+# Model files (large binary files)
+models/*.pth
+models/*.pkl
+models/*.h5
+
+# Virtual environment
+.venv*/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Wandb logs (can be large)
+wandb/
+
+# Large report files
+reports/*.png
+reports/*.jpg
+reports/*.pdf
+
+# Large NPY/NPZ files
+*.npy
+*.npz
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Keep small JSON files but exclude large ones
+reports/**/large_*.json

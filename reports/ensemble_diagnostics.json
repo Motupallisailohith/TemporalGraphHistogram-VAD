@@ -1,0 +1,82 @@
+{
+  "distribution_stats": {
+    "baseline_range": [
+      0.010897146033636264,
+      0.06694777497189495
+    ],
+    "gnn_range": [
+      0.411081999540329,
+      2.350590467453003
+    ],
+    "baseline_mean": 0.027420892938138652,
+    "gnn_mean": 0.824730634689331,
+    "scale_ratio": 34.60279527365827
+  },
+  "correlation_stats": {
+    "pearson": 0.023051689067207625,
+    "spearman": -0.0338386188430664
+  },
+  "per_sequence_results": [
+    {
+      "sequence": "Test001",
+      "baseline_auc": 0.9830555555555556,
+      "gnn_auc": 0.5527777777777778,
+      "winner": "Baseline",
+      "margin": 0.43027777777777776
+    },
+    {
+      "sequence": "Test002",
+      "baseline_auc": 0.03748144482929243,
+      "gnn_auc": 0.7501237011380504,
+      "winner": "GNN",
+      "margin": 0.712642256308758
+    },
+    {
+      "sequence": "Test003",
+      "baseline_auc": 0.8732876712328768,
+      "gnn_auc": 0.16095890410958902,
+      "winner": "Baseline",
+      "margin": 0.7123287671232877
+    },
+    {
+      "sequence": "Test004",
+      "baseline_auc": 0.9520000000000001,
+      "gnn_auc": 0.6766666666666666,
+      "winner": "Baseline",
+      "margin": 0.27533333333333343
+    },
+    {
+      "sequence": "Test005",
+      "baseline_auc": 0.20007382798080472,
+      "gnn_auc": 0.43558508674787744,
+      "winner": "GNN",
+      "margin": 0.2355112587670727
+    },
+    {
+      "sequence": "Test006",
+      "baseline_auc": 0.0065887990416292315,
+      "gnn_auc": 0.4375561545372866,
+      "winner": "GNN",
+      "margin": 0.43096735549565734
+    },
+    {
+      "sequence": "Test007",
+      "baseline_auc": 0.17761316872427982,
+      "gnn_auc": 0.5063374485596708,
+      "winner": "GNN",
+      "margin": 0.328724279835391
+    },
+    {
+      "sequence": "Test012",
+      "baseline_auc": 0.8744283772092448,
+      "gnn_auc": 0.5805215671734025,
+      "winner": "Baseline",
+      "margin": 0.2939068100358423
+    }
+  ],
+  "summary": {
+    "scale_mismatch": true,
+    "low_correlation": true,
+    "ensemble_potential": true
+  }
+}

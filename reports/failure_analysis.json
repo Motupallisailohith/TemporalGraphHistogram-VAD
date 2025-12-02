@@ -1,0 +1,83 @@
+{
+  "summary": {
+    "total_false_positives": 115,
+    "total_false_negatives": 502
+  },
+  "sequence_performance": {
+    "Test001": {
+      "auc": 0.7240277777777778,
+      "accuracy": 0.6777777777777778,
+      "optimal_threshold": 0.24035143852233887,
+      "false_positives": 14,
+      "false_negatives": 44,
+      "total_normal": 60,
+      "total_anomaly": 120
+    },
+    "Test002": {
+      "auc": 0.707075705096487,
+      "accuracy": 0.6722222222222223,
+      "optimal_threshold": 0.13744698464870453,
+      "false_positives": 41,
+      "false_negatives": 18,
+      "total_normal": 94,
+      "total_anomaly": 86
+    },
+    "Test003": {
+      "auc": 0.4383561643835616,
+      "accuracy": 0.30666666666666664,
+      "optimal_threshold": 0.24138100445270538,
+      "false_positives": 0,
+      "false_negatives": 104,
+      "total_normal": 4,
+      "total_anomaly": 146
+    },
+    "Test004": {
+      "auc": 0.7473333333333333,
+      "accuracy": 0.65,
+      "optimal_threshold": 0.21595820784568787,
+      "false_positives": 5,
+      "false_negatives": 58,
+      "total_normal": 30,
+      "total_anomaly": 150
+    },
+    "Test005": {
+      "auc": 0.40568475452196384,
+      "accuracy": 0.37333333333333335,
+      "optimal_threshold": 0.2763921916484833,
+      "false_positives": 5,
+      "false_negatives": 89,
+      "total_normal": 21,
+      "total_anomaly": 129
+    },
+    "Test006": {
+      "auc": 0.432764300688829,
+      "accuracy": 0.37222222222222223,
+      "optimal_threshold": 0.18099109828472137,
+      "false_positives": 4,
+      "false_negatives": 109,
+      "total_normal": 21,
+      "total_anomaly": 159
+    },
+    "Test007": {
+      "auc": 0.4725925925925926,
+      "accuracy": 0.6888888888888889,
+      "optimal_threshold": 0.11674046516418457,
+      "false_positives": 33,
+      "false_negatives": 23,
+      "total_normal": 45,
+      "total_anomaly": 135
+    },
+    "Test012": {
+      "auc": 0.6488691138301816,
+      "accuracy": 0.6111111111111112,
+      "optimal_threshold": 0.24884428083896637,
+      "false_positives": 13,
+      "false_negatives": 57,
+      "total_normal": 87,
+      "total_anomaly": 93
+    }
+  },
+  "worst_false_positives": [
+    [
+      "Test012",
+      

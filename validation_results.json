@@ -1,0 +1,97 @@
+{
+  "frame_count_verification": {
+    "status": "PASS",
+    "details": [
+      "\u2713 Test001: 180 frames = 180 GT masks",
+      "\u2713 Test002: 180 frames = 180 GT masks",
+      "\u2713 Test003: 150 frames = 150 GT masks",
+      "\u2713 Test004: 180 frames = 180 GT masks",
+      "\u2713 Test005: 150 frames = 150 GT masks",
+      "\u2713 Test006: 180 frames = 180 GT masks",
+      "\u2713 Test007: 180 frames = 180 GT masks",
+      "\u2713 Test008: 180 frames = 180 GT masks",
+      "\u2713 Test009: 120 frames = 120 GT masks",
+      "\u2713 Test010: 150 frames = 150 GT masks",
+      "\u2713 Test011: 180 frames = 180 GT masks",
+      "\u2713 Test012: 180 frames = 180 GT masks"
+    ]
+  },
+  "histogram_label_alignment": {
+    "status": "PASS",
+    "details": [
+      "\u2713 Test001: 180 histograms = 180 labels",
+      "\u2713 Test002: 180 histograms = 180 labels",
+      "\u2713 Test003: 150 histograms = 150 labels",
+      "\u2713 Test004: 180 histograms = 180 labels",
+      "\u2713 Test005: 150 histograms = 150 labels",
+      "\u2713 Test006: 180 histograms = 180 labels",
+      "\u2713 Test007: 180 histograms = 180 labels",
+      "\u2713 Test008: 180 histograms = 180 labels",
+      "\u2713 Test009: 120 histograms = 120 labels",
+      "\u2713 Test010: 150 histograms = 150 labels",
+      "\u2713 Test011: 180 histograms = 180 labels",
+      "\u2713 Test012: 180 histograms = 180 labels"
+    ]
+  },
+  "train_sequences_check": {
+    "status": "PASS",
+    "details": [
+      "\u2713 Found 16 training sequences (normal data only)"
+    ]
+  },
+  "ground_truth_mask_quality": {
+    "status": "PASS",
+    "details": [
+      "Checked 2010 mask files",
+      "\u2713 All ground truth masks are binary and valid"
+    ]
+  },
+  "json_metadata_validation": {
+    "status": "PASS",
+    "details": [
+      "\u2713 Test001: 180 valid binary labels",
+      "\u2713 Test002: 180 valid binary labels",
+      "\u2713 Test003: 150 valid binary labels",
+      "\u2713 Test004: 180 valid binary labels",
+      "\u2713 Test005: 150 valid binary labels",
+      "\u2713 Test006: 180 valid binary labels",
+      "\u2713 Test007: 180 valid binary labels",
+      "\u2713 Test008: 180 valid binary labels",
+      "\u2713 Test009: 120 valid binary labels",
+      "\u2713 Test010: 150 valid binary labels",
+      "\u2713 Test011: 180 valid binary labels",
+      "\u2713 Test012: 180 valid binary labels",
+      "\u2713 Splits: 16 train, 24 test sequences"
+    ]
+  },
+  "histogram_file_integrity": {
+    "status": "PASS",
+    "details": [
+      "\u2713 Test001_gt_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test001_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test002_gt_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test002_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test003_gt_histograms.npy: 150 frames \u00d7 256 bins",
+      "\u2713 Test003_histograms.npy: 150 frames \u00d7 256 bins",
+      "\u2713 Test004_gt_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test004_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test005_gt_histograms.npy: 150 frames \u00d7 256 bins",
+      "\u2713 Test005_histograms.npy: 150 frames \u00d7 256 bins",
+      "\u2713 Test006_gt_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test006_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test007_gt_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test007_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test008_gt_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test008_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test009_gt_histograms.npy: 120 frames \u00d7 256 bins",
+      "\u2713 Test009_histograms.npy: 120 frames \u00d7 256 bins",
+      "\u2713 Test010_gt_histograms.npy: 150 frames \u00d7 256 bins",
+      "\u2713 Test010_histograms.npy: 150 frames \u00d7 256 bins",
+      "\u2713 Test011_gt_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test011_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test012_gt_histograms.npy: 180 frames \u00d7 256 bins",
+      "\u2713 Test012_histograms.npy: 180 frames \u00d7 256 bins",
+      "Validated 24 histogram files"
+    ]
+  }
+}

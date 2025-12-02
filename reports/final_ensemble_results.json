@@ -1,0 +1,18 @@
+{
+  "individual_performance": {
+    "baseline_auc": 0.4815530397594677,
+    "tuned_gnn_auc": 0.6282576604543629
+  },
+  "ensemble_results": {
+    "simple_average": 0.5464376037946792,
+    "weighted_average": 0.6282576604543629,
+    "rank_fusion": 0.577167612803786,
+    "stacking": 0.6290174646419694
+  },
+  "best_strategy": "stacking",
+  "best_auc": 0.6290174646419694,
+  "improvements": {
+    "vs_baseline_pp": 14.746442488250167,
+    "vs_gnn_pp": 0.0759804187606461
+  }
+}

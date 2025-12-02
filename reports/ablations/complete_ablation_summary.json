@@ -1,0 +1,49 @@
+{
+  "feature_ablation": {
+    "histogram": 0.4309459314488011,
+    "optical_flow": 0.5,
+    "cnn": 0.5
+  },
+  "graph_structure_ablation": {
+    "window_sizes": {
+      "k=1": 0.45365888000858234,
+      "k=2": 0.4611901920291799,
+      "k=3": 0.459685773480663,
+      "k=5": 0.46361402403046714
+    },
+    "edge_weighting": {
+      "binary": 0.4705268063079976,
+      "similarity": 0.4674836064474602
+    }
+  },
+  "analysis": {
+    "best_feature": {
+      "type": "optical_flow",
+      "auc": 0.5
+    },
+    "best_window": {
+      "size": "k=5",
+      "auc": 0.46361402403046714
+    },
+    "best_edge_scheme": {
+      "type": "binary",
+      "auc": 0.4705268063079976
+    },
+    "performance_gaps": {
+      "expected_ensemble": 0.629,
+      "best_single_feature": 0.5,
+      "best_graph_structure": 0.4705268063079976,
+      "improvement_potential": 0.129
+    }
+  },
+  "recommendations": {
+    "primary_feature": "optical_flow",
+    "optimal_window_k": 5,
+    "optimal_edge_weighting": "binary",
+    "next_steps": [
+      "Implement optimized graph structure",
+      "Test feature ensemble combinations",
+      "Validate on full test set"
+    ]
+  }
+}
