@@ -1,0 +1,11 @@
+{
+  "checks_passed": [
+    "Dataset structure",
+    "Splits-labels alignment",
+    "Histogram integrity",
+    "Statistical properties",
+    "Ground truth masks"
+  ],
+  "checks_failed": [],
+  "warnings": []
+}

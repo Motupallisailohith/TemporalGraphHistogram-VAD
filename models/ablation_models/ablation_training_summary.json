@@ -1,0 +1,11 @@
+{
+  "trained_models": {
+    "histogram": {
+      "final_loss": 0.417840201407671,
+      "input_dim": 256,
+      "num_epochs": 50
+    }
+  },
+  "failed_models": [],
+  "training_time": 16.579236268997192
+}

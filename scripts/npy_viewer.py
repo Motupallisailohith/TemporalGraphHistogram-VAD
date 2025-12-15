@@ -40,10 +40,16 @@ def analyze_npz_file(file_path):
             
             # Statistical analysis
             if data.size > 0:
-                print(f"   Min: {np.min(data):.6f}")
-                print(f"   Max: {np.max(data):.6f}")
-                print(f"   Mean: {np.mean(data):.6f}")
-                print(f"   Std: {np.std(data):.6f}")
+                if np.issubdtype(data.dtype, np.number):
+                    print(f"   Min: {np.min(data):.6f}")
+                    print(f"   Max: {np.max(data):.6f}")
+                    print(f"   Mean: {np.mean(data):.6f}")
+                    print(f"   Std: {np.std(data):.6f}")
+                else:
+                    print(f"   Data type: {data.dtype} (non-numeric)")
+                    if data.dtype.kind in ['U', 'S']:  # Unicode or byte strings
+                        unique_values = np.unique(data)
+                        print(f"   Unique values: {unique_values}")
                 
                 # Show sample values for smaller arrays
                 if len(data.shape) == 1 and data.shape[0] <= 20:
@@ -270,9 +276,10 @@ def interactive_mode():
         print("1. Analyze single file")
         print("2. Browse directory")
         print("3. Compare multiple files")
-        print("4. Exit")
+        print("4. Quick plot (simple matplotlib style)")
+        print("5. Exit")
         
-        choice = input("\nEnter choice (1-4): ").strip()
+        choice = input("\nEnter choice (1-5): ").strip()
         
         if choice == '1':
             file_path = input("Enter NPY/NPZ file path: ").strip().strip('"')
@@ -347,6 +354,13 @@ def interactive_mode():
                 compare_npy_files(files)
         
         elif choice == '4':
+            file_path = input("Enter NPY/NPZ file path for quick plot: ").strip().strip('"')
+            if Path(file_path).exists():
+                quick_visualize_npy(file_path)
+            else:
+                print(f"❌ File not found: {file_path}")
+        
+        elif choice == '5':
             print("👋 Goodbye!")
             break
         
@@ -400,19 +414,84 @@ def compare_npy_files(file_paths):
     plt.tight_layout()
     plt.show()
 
+def quick_visualize_npy(file_path, save_path=None):
+    """
+    Quick visualization function compatible with basic matplotlib usage
+    
+    Args:
+        file_path: Path to .npy file
+        save_path: Optional path to save plot
+    """
+    try:
+        # Load the data
+        data = np.load(file_path)
+        print(f"📊 Loaded: {file_path}")
+        print(f"   Shape: {data.shape}, Type: {data.dtype}")
+        print(f"   Range: [{data.min():.4f}, {data.max():.4f}]")
+        
+        # Create the plot
+        plt.figure(figsize=(12, 6))
+        
+        if len(data.shape) == 1:
+            # Simple line plot like user's example
+            plt.plot(data, linewidth=1.5, color='blue', alpha=0.8)
+            plt.title(f'Data Visualization: {Path(file_path).name}')
+            plt.xlabel('Index')
+            plt.ylabel('Value')
+            
+        elif len(data.shape) == 2 and data.shape[1] == 256:
+            # Histogram data - show evolution
+            plt.imshow(data.T, cmap='viridis', aspect='auto')
+            plt.colorbar(label='Histogram Density')
+            plt.title(f'Histogram Evolution: {Path(file_path).name}')
+            plt.xlabel('Frame Index')
+            plt.ylabel('Histogram Bin')
+            
+        else:
+            # General 2D or higher - flatten and plot
+            flattened = data.flatten()
+            if len(flattened) <= 1000:
+                plt.plot(flattened, linewidth=1, alpha=0.8)
+                plt.title(f'Data Plot: {Path(file_path).name}')
+                plt.xlabel('Index')
+                plt.ylabel('Value')
+            else:
+                plt.hist(flattened, bins=50, alpha=0.7, edgecolor='black')
+                plt.title(f'Value Distribution: {Path(file_path).name}')
+                plt.xlabel('Value')
+                plt.ylabel('Frequency')
+        
+        plt.grid(True, alpha=0.3)
+        
+        # Save the plot
+        if save_path is None:
+            save_path = Path(file_path).parent / f"{Path(file_path).stem}_plot.png"
+        
+        plt.tight_layout()
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+        print(f"✅ Plot saved: {save_path}")
+        plt.show()
+        
+    except Exception as e:
+        print(f"❌ Error visualizing {file_path}: {e}")
+
 def main():
     """Main function"""
-    parser = argparse.ArgumentParser(description="NPY File Viewer and Analyzer")
-    parser.add_argument("file", nargs="?", help="NPY file to analyze")
-    parser.add_argument("-d", "--directory", help="Directory to browse for NPY files")
+    parser = argparse.ArgumentParser(description="NPY/NPZ File Viewer and Analyzer")
+    parser.add_argument("file", nargs="?", help="NPY/NPZ file to analyze")
+    parser.add_argument("-d", "--directory", help="Directory to browse for numpy files")
     parser.add_argument("-v", "--visualize", action="store_true", help="Show visualizations")
     parser.add_argument("-s", "--save-plots", action="store_true", help="Save plot images")
     parser.add_argument("-i", "--interactive", action="store_true", help="Interactive mode")
+    parser.add_argument("-q", "--quick", action="store_true", help="Quick plot mode (like matplotlib example)")
     
     args = parser.parse_args()
     
     if args.interactive or (not args.file and not args.directory):
         interactive_mode()
+    elif args.quick and args.file:
+        # Quick plot mode - simple like user's matplotlib example
+        quick_visualize_npy(args.file)
     elif args.file:
         if Path(args.file).suffix == '.npz':
             data = analyze_npz_file(args.file)

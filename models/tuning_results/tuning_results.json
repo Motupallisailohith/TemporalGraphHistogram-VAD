@@ -1,0 +1,81 @@
+{
+  "best_config": {
+    "input_dim": 2048,
+    "hidden_dim": 1024,
+    "latent_dim": 256,
+    "dropout": 0.1,
+    "learning_rate": 0.0001,
+    "num_epochs": 100
+  },
+  "best_auc": 0.6164646247921473,
+  "baseline_auc": 0.5774,
+  "improvement": 0.03906462479214723,
+  "num_configurations_tested": 162,
+  "top_5_configs": [
+    {
+      "config": {
+        "input_dim": 2048,
+        "hidden_dim": 1024,
+        "latent_dim": 256,
+        "dropout": 0.1,
+        "learning_rate": 0.0001,
+        "num_epochs": 100
+      },
+      "auc": 0.6164646247921473,
+      "final_loss": 0.3183021731674671,
+      "training_time": 10.824642658233643
+    },
+    {
+      "config": {
+        "input_dim": 2048,
+        "hidden_dim": 1024,
+        "latent_dim": 256,
+        "dropout": 0.0,
+        "learning_rate": 0.0001,
+        "num_epochs": 100
+      },
+      "auc": 0.6126361100681221,
+      "final_loss": 0.3128892946988344,
+      "training_time": 10.995891094207764
+    },
+    {
+      "config": {
+        "input_dim": 2048,
+        "hidden_dim": 256,
+        "latent_dim": 256,
+        "dropout": 0.1,
+        "learning_rate": 0.0001,
+        "num_epochs": 50
+      },
+      "auc": 0.6126344338357561,
+      "final_loss": 0.49359643273055553,
+      "training_time": 4.926502704620361
+    },
+    {
+      "config": {
+        "input_dim": 2048,
+        "hidden_dim": 1024,
+        "latent_dim": 128,
+        "dropout": 0.1,
+        "learning_rate": 0.0001,
+        "num_epochs": 100
+      },
+      "auc": 0.6107520248886982,
+      "final_loss": 0.3381936941295862,
+      "training_time": 12.621405363082886
+    },
+    {
+      "config": {
+        "input_dim": 2048,
+        "hidden_dim": 512,
+        "latent_dim": 256,
+        "dropout": 0.2,
+        "learning_rate": 0.0001,
+        "num_epochs": 100
+      },
+      "auc": 0.6057987582470632,
+      "final_loss": 0.3796746451407671,
+      "training_time": 9.737695455551147
+    }
+  ]
+}

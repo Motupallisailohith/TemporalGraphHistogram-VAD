@@ -1,0 +1,751 @@
+{
+  "01_0014": {
+    "split": "test",
+    "num_frames": 265,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0014"
+  },
+  "01_0015": {
+    "split": "test",
+    "num_frames": 433,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0015"
+  },
+  "01_0016": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0016"
+  },
+  "01_0025": {
+    "split": "test",
+    "num_frames": 601,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0025"
+  },
+  "01_0026": {
+    "split": "test",
+    "num_frames": 505,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0026"
+  },
+  "01_0027": {
+    "split": "test",
+    "num_frames": 409,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0027"
+  },
+  "01_0028": {
+    "split": "test",
+    "num_frames": 457,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0028"
+  },
+  "01_0029": {
+    "split": "test",
+    "num_frames": 313,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0029"
+  },
+  "01_0030": {
+    "split": "test",
+    "num_frames": 409,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0030"
+  },
+  "01_0051": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0051"
+  },
+  "01_0052": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0052"
+  },
+  "01_0053": {
+    "split": "test",
+    "num_frames": 457,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0053"
+  },
+  "01_0054": {
+    "split": "test",
+    "num_frames": 577,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0054"
+  },
+  "01_0055": {
+    "split": "test",
+    "num_frames": 313,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0055"
+  },
+  "01_0056": {
+    "split": "test",
+    "num_frames": 529,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0056"
+  },
+  "01_0063": {
+    "split": "test",
+    "num_frames": 193,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0063"
+  },
+  "01_0064": {
+    "split": "test",
+    "num_frames": 289,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0064"
+  },
+  "01_0073": {
+    "split": "test",
+    "num_frames": 289,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0073"
+  },
+  "01_0076": {
+    "split": "test",
+    "num_frames": 265,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0076"
+  },
+  "01_0129": {
+    "split": "test",
+    "num_frames": 241,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0129"
+  },
+  "01_0130": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0130"
+  },
+  "01_0131": {
+    "split": "test",
+    "num_frames": 289,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0131"
+  },
+  "01_0132": {
+    "split": "test",
+    "num_frames": 265,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0132"
+  },
+  "01_0133": {
+    "split": "test",
+    "num_frames": 217,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0133"
+  },
+  "01_0134": {
+    "split": "test",
+    "num_frames": 433,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0134"
+  },
+  "01_0135": {
+    "split": "test",
+    "num_frames": 409,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0135"
+  },
+  "01_0136": {
+    "split": "test",
+    "num_frames": 529,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0136"
+  },
+  "01_0138": {
+    "split": "test",
+    "num_frames": 313,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0138"
+  },
+  "01_0139": {
+    "split": "test",
+    "num_frames": 217,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0139"
+  },
+  "01_0140": {
+    "split": "test",
+    "num_frames": 241,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0140"
+  },
+  "01_0141": {
+    "split": "test",
+    "num_frames": 313,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0141"
+  },
+  "01_0162": {
+    "split": "test",
+    "num_frames": 193,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0162"
+  },
+  "01_0163": {
+    "split": "test",
+    "num_frames": 265,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0163"
+  },
+  "01_0177": {
+    "split": "test",
+    "num_frames": 317,
+    "has_anomaly": true,
+    "scene_id": "01",
+    "clip_id": "0177"
+  },
+  "02_0128": {
+    "split": "test",
+    "num_frames": 457,
+    "has_anomaly": true,
+    "scene_id": "02",
+    "clip_id": "0128"
+  },
+  "02_0161": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "02",
+    "clip_id": "0161"
+  },
+  "02_0164": {
+    "split": "test",
+    "num_frames": 361,
+    "has_anomaly": true,
+    "scene_id": "02",
+    "clip_id": "0164"
+  },
+  "03_0031": {
+    "split": "test",
+    "num_frames": 529,
+    "has_anomaly": true,
+    "scene_id": "03",
+    "clip_id": "0031"
+  },
+  "03_0032": {
+    "split": "test",
+    "num_frames": 409,
+    "has_anomaly": true,
+    "scene_id": "03",
+    "clip_id": "0032"
+  },
+  "03_0033": {
+    "split": "test",
+    "num_frames": 313,
+    "has_anomaly": true,
+    "scene_id": "03",
+    "clip_id": "0033"
+  },
+  "03_0035": {
+    "split": "test",
+    "num_frames": 385,
+    "has_anomaly": true,
+    "scene_id": "03",
+    "clip_id": "0035"
+  },
+  "03_0036": {
+    "split": "test",
+    "num_frames": 457,
+    "has_anomaly": true,
+    "scene_id": "03",
+    "clip_id": "0036"
+  },
+  "03_0039": {
+    "split": "test",
+    "num_frames": 481,
+    "has_anomaly": true,
+    "scene_id": "03",
+    "clip_id": "0039"
+  },
+  "03_0041": {
+    "split": "test",
+    "num_frames": 457,
+    "has_anomaly": true,
+    "scene_id": "03",
+    "clip_id": "0041"
+  },
+  "03_0059": {
+    "split": "test",
+    "num_frames": 433,
+    "has_anomaly": true,
+    "scene_id": "03",
+    "clip_id": "0059"
+  },
+  "03_0060": {
+    "split": "test",
+    "num_frames": 385,
+    "has_anomaly": true,
+    "scene_id": "03",
+    "clip_id": "0060"
+  },
+  "03_0061": {
+    "split": "test",
+    "num_frames": 241,
+    "has_anomaly": true,
+    "scene_id": "03",
+    "clip_id": "0061"
+  },
+  "04_0001": {
+    "split": "test",
+    "num_frames": 553,
+    "has_anomaly": true,
+    "scene_id": "04",
+    "clip_id": "0001"
+  },
+  "04_0003": {
+    "split": "test",
+    "num_frames": 937,
+    "has_anomaly": true,
+    "scene_id": "04",
+    "clip_id": "0003"
+  },
+  "04_0004": {
+    "split": "test",
+    "num_frames": 865,
+    "has_anomaly": true,
+    "scene_id": "04",
+    "clip_id": "0004"
+  },
+  "04_0010": {
+    "split": "test",
+    "num_frames": 505,
+    "has_anomaly": true,
+    "scene_id": "04",
+    "clip_id": "0010"
+  },
+  "04_0011": {
+    "split": "test",
+    "num_frames": 313,
+    "has_anomaly": true,
+    "scene_id": "04",
+    "clip_id": "0011"
+  },
+  "04_0012": {
+    "split": "test",
+    "num_frames": 361,
+    "has_anomaly": true,
+    "scene_id": "04",
+    "clip_id": "0012"
+  },
+  "04_0013": {
+    "split": "test",
+    "num_frames": 361,
+    "has_anomaly": true,
+    "scene_id": "04",
+    "clip_id": "0013"
+  },
+  "04_0046": {
+    "split": "test",
+    "num_frames": 529,
+    "has_anomaly": true,
+    "scene_id": "04",
+    "clip_id": "0046"
+  },
+  "04_0050": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "04",
+    "clip_id": "0050"
+  },
+  "05_0017": {
+    "split": "test",
+    "num_frames": 433,
+    "has_anomaly": true,
+    "scene_id": "05",
+    "clip_id": "0017"
+  },
+  "05_0018": {
+    "split": "test",
+    "num_frames": 481,
+    "has_anomaly": true,
+    "scene_id": "05",
+    "clip_id": "0018"
+  },
+  "05_0019": {
+    "split": "test",
+    "num_frames": 649,
+    "has_anomaly": true,
+    "scene_id": "05",
+    "clip_id": "0019"
+  },
+  "05_0020": {
+    "split": "test",
+    "num_frames": 649,
+    "has_anomaly": true,
+    "scene_id": "05",
+    "clip_id": "0020"
+  },
+  "05_0021": {
+    "split": "test",
+    "num_frames": 409,
+    "has_anomaly": true,
+    "scene_id": "05",
+    "clip_id": "0021"
+  },
+  "05_0022": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "05",
+    "clip_id": "0022"
+  },
+  "05_0023": {
+    "split": "test",
+    "num_frames": 769,
+    "has_anomaly": true,
+    "scene_id": "05",
+    "clip_id": "0023"
+  },
+  "05_0024": {
+    "split": "test",
+    "num_frames": 433,
+    "has_anomaly": true,
+    "scene_id": "05",
+    "clip_id": "0024"
+  },
+  "06_0144": {
+    "split": "test",
+    "num_frames": 241,
+    "has_anomaly": true,
+    "scene_id": "06",
+    "clip_id": "0144"
+  },
+  "06_0145": {
+    "split": "test",
+    "num_frames": 217,
+    "has_anomaly": true,
+    "scene_id": "06",
+    "clip_id": "0145"
+  },
+  "06_0147": {
+    "split": "test",
+    "num_frames": 265,
+    "has_anomaly": true,
+    "scene_id": "06",
+    "clip_id": "0147"
+  },
+  "06_0150": {
+    "split": "test",
+    "num_frames": 265,
+    "has_anomaly": true,
+    "scene_id": "06",
+    "clip_id": "0150"
+  },
+  "06_0153": {
+    "split": "test",
+    "num_frames": 217,
+    "has_anomaly": true,
+    "scene_id": "06",
+    "clip_id": "0153"
+  },
+  "06_0155": {
+    "split": "test",
+    "num_frames": 265,
+    "has_anomaly": true,
+    "scene_id": "06",
+    "clip_id": "0155"
+  },
+  "07_0005": {
+    "split": "test",
+    "num_frames": 409,
+    "has_anomaly": true,
+    "scene_id": "07",
+    "clip_id": "0005"
+  },
+  "07_0006": {
+    "split": "test",
+    "num_frames": 385,
+    "has_anomaly": true,
+    "scene_id": "07",
+    "clip_id": "0006"
+  },
+  "07_0007": {
+    "split": "test",
+    "num_frames": 481,
+    "has_anomaly": true,
+    "scene_id": "07",
+    "clip_id": "0007"
+  },
+  "07_0008": {
+    "split": "test",
+    "num_frames": 457,
+    "has_anomaly": true,
+    "scene_id": "07",
+    "clip_id": "0008"
+  },
+  "07_0009": {
+    "split": "test",
+    "num_frames": 313,
+    "has_anomaly": true,
+    "scene_id": "07",
+    "clip_id": "0009"
+  },
+  "07_0047": {
+    "split": "test",
+    "num_frames": 601,
+    "has_anomaly": true,
+    "scene_id": "07",
+    "clip_id": "0047"
+  },
+  "07_0048": {
+    "split": "test",
+    "num_frames": 241,
+    "has_anomaly": true,
+    "scene_id": "07",
+    "clip_id": "0048"
+  },
+  "07_0049": {
+    "split": "test",
+    "num_frames": 481,
+    "has_anomaly": true,
+    "scene_id": "07",
+    "clip_id": "0049"
+  },
+  "08_0044": {
+    "split": "test",
+    "num_frames": 313,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0044"
+  },
+  "08_0058": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0058"
+  },
+  "08_0077": {
+    "split": "test",
+    "num_frames": 457,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0077"
+  },
+  "08_0078": {
+    "split": "test",
+    "num_frames": 217,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0078"
+  },
+  "08_0079": {
+    "split": "test",
+    "num_frames": 241,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0079"
+  },
+  "08_0080": {
+    "split": "test",
+    "num_frames": 289,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0080"
+  },
+  "08_0156": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0156"
+  },
+  "08_0157": {
+    "split": "test",
+    "num_frames": 313,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0157"
+  },
+  "08_0158": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0158"
+  },
+  "08_0159": {
+    "split": "test",
+    "num_frames": 265,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0159"
+  },
+  "08_0178": {
+    "split": "test",
+    "num_frames": 265,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0178"
+  },
+  "08_0179": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "08",
+    "clip_id": "0179"
+  },
+  "09_0057": {
+    "split": "test",
+    "num_frames": 361,
+    "has_anomaly": true,
+    "scene_id": "09",
+    "clip_id": "0057"
+  },
+  "10_0037": {
+    "split": "test",
+    "num_frames": 433,
+    "has_anomaly": true,
+    "scene_id": "10",
+    "clip_id": "0037"
+  },
+  "10_0038": {
+    "split": "test",
+    "num_frames": 241,
+    "has_anomaly": true,
+    "scene_id": "10",
+    "clip_id": "0038"
+  },
+  "10_0042": {
+    "split": "test",
+    "num_frames": 433,
+    "has_anomaly": true,
+    "scene_id": "10",
+    "clip_id": "0042"
+  },
+  "10_0074": {
+    "split": "test",
+    "num_frames": 601,
+    "has_anomaly": true,
+    "scene_id": "10",
+    "clip_id": "0074"
+  },
+  "10_0075": {
+    "split": "test",
+    "num_frames": 505,
+    "has_anomaly": true,
+    "scene_id": "10",
+    "clip_id": "0075"
+  },
+  "11_0176": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "11",
+    "clip_id": "0176"
+  },
+  "12_0142": {
+    "split": "test",
+    "num_frames": 601,
+    "has_anomaly": true,
+    "scene_id": "12",
+    "clip_id": "0142"
+  },
+  "12_0143": {
+    "split": "test",
+    "num_frames": 265,
+    "has_anomaly": true,
+    "scene_id": "12",
+    "clip_id": "0143"
+  },
+  "12_0148": {
+    "split": "test",
+    "num_frames": 313,
+    "has_anomaly": true,
+    "scene_id": "12",
+    "clip_id": "0148"
+  },
+  "12_0149": {
+    "split": "test",
+    "num_frames": 241,
+    "has_anomaly": true,
+    "scene_id": "12",
+    "clip_id": "0149"
+  },
+  "12_0151": {
+    "split": "test",
+    "num_frames": 289,
+    "has_anomaly": true,
+    "scene_id": "12",
+    "clip_id": "0151"
+  },
+  "12_0152": {
+    "split": "test",
+    "num_frames": 361,
+    "has_anomaly": true,
+    "scene_id": "12",
+    "clip_id": "0152"
+  },
+  "12_0154": {
+    "split": "test",
+    "num_frames": 385,
+    "has_anomaly": true,
+    "scene_id": "12",
+    "clip_id": "0154"
+  },
+  "12_0173": {
+    "split": "test",
+    "num_frames": 217,
+    "has_anomaly": true,
+    "scene_id": "12",
+    "clip_id": "0173"
+  },
+  "12_0174": {
+    "split": "test",
+    "num_frames": 337,
+    "has_anomaly": true,
+    "scene_id": "12",
+    "clip_id": "0174"
+  },
+  "12_0175": {
+    "split": "test",
+    "num_frames": 265,
+    "has_anomaly": true,
+    "scene_id": "12",
+    "clip_id": "0175"
+  }
+}
